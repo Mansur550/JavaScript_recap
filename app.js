@@ -64,3 +64,15 @@ console.log(output);
 
 
 
+// Object
+const person = {
+    name: "Mansur Islam",
+    age: 25,
+    city: "Dhaka",
+    profession: "Software Engineer",
+    friends: friends
+};
+person.age = 26; // Modifying object property
+console.log(person.name); // Accessing object property using dot notation
+console.log(person["age"]); // Accessing object property using bracket notation
+
