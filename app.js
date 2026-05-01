@@ -2,7 +2,7 @@ let a = "mansur";
 a = "mansur Islam";
 // console.log(a);
 
-alert("app.js is connected!");
+// alert("app.js is connected!");
 
 
 const country = "Bangladesh";
@@ -43,3 +43,24 @@ friends.shift(); //remove first element from array
 console.log(friends);
 //For cheking array element number
 console.log(friends.length);
+
+// for loop
+for (let i = 0; i < friends.length; i++) {
+    console.log(friends[i]);
+}
+
+
+
+// Function
+function sum(a, b) {
+    const result = a + b;
+    return result;
+}
+
+const output = sum(5, 10);
+console.log(output);
+
+
+
+
+
