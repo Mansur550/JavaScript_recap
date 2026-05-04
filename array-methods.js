@@ -15,3 +15,7 @@ products.forEach(product => console.log(product.name));
 //filter method
 const result = products.filter(product => product.price > 15000);
 console.log(result);
+
+//find method
+const foundProduct = products.find(product => product.name === "realme");
+console.log(foundProduct);  
