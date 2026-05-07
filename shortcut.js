@@ -26,4 +26,9 @@ test?console.log("Its Truthy"): console.log("Its Falsy");
 const num = 15;
 const result = (num>=10 && num<=20)? "True":"False";
 console.log(result);
-    
+
+
+const isActive = true;
+const showUser = ()=> console.log("User is active");
+const hideUser = ()=> console.log("User is inactive");
+isActive? showUser(): hideUser();
