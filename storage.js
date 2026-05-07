@@ -11,3 +11,10 @@ const handleAddToStorage = () => {
 
 
 }
+
+const storeditem =localStorage.getItem("123");
+console.log(JSON.parse(storeditem));
+
+const handleClear = () => {
+    localStorage.clear();
+}
