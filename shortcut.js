@@ -32,3 +32,11 @@ const isActive = true;
 const showUser = ()=> console.log("User is active");
 const hideUser = ()=> console.log("User is inactive");
 isActive? showUser(): hideUser();
+
+isActive && showUser(); // If isActive is true, showUser() will be called
+!isActive && hideUser(); // If isActive is false, hideUser() will be called
+
+//type Conversion
+const num1 = "10";
+const result2 =+num1; // Convert num1 to a number using the unary plus operator
+console.log(typeof result2);
